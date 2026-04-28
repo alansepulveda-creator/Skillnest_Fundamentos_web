@@ -1,0 +1,34 @@
+.Boton_ovalado{
+      margin: 30px 45% 10px;
+padding: 10px 20px;
+border: 5 black;
+border-radius: 20px;
+width: 100px;
+height: 40px;
+cursor: pointer;
+box-shadow: 3px 6px 8px;
+}
+.Circulo{
+      margin: 0px 638px 10px;
+      border: 0;
+      cursor: pointer;
+      width: 40px;
+      height: 40px;
+      padding: 10px 16px;
+      background-color: orange;
+      color: white;
+      border-radius: 50%;
+      box-shadow: 3px 6px 8px black;
+}
+.Rectangulo{
+      margin: 0px 615px 10px;
+      border: 0;
+      cursor: pointer;
+      width: 95px;
+      height: 40px;
+      padding: 10px 1px;
+      background-color: crimson;
+      color: white;
+      border-radius: 0%;
+      box-shadow: 3px 6px 8px black;
+}
