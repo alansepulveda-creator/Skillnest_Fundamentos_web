@@ -20,6 +20,7 @@ body {
 .col {
     display: flex;
     justify-content: center;
+    transition: transform 1s ease;
     height: 50px;
     border-radius: 10px;
     background-color: #87CEEB;
@@ -35,4 +36,8 @@ body {
 .col-3 {
     background-color: #87CEEB;
     flex: 3;
+}
+.row div:hover{
+transform: scale(1.1);
+background-color: blue;
 }
