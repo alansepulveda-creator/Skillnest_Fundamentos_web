@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    background-color: #F4F8FE;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.barra{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 30px;
+    background-color: #FFFFFF;
+    margin-top: 60px;
+    width: 93%;
+    height: 100px;
+    margin-left: 50px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: 600px;
+    background-color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #111817;
+}
+.boton{
+    display: flex;
+    background-color: #FFFFFF;
+    border: 0;
+    align-self: center;
+    text-decoration: none;
+    font-weight: 500;
+}
+.buton{
+    align-self: center;
+    align-content: center;
+    width: 80px;
+    height: 40px;
+    background-color: #2471EC;
+    border-radius: 5px;
+    border: 0;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 50px;
+}
+.logo span{
+    color: #2471EC;
+}
+
+.si{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 80px 50px;
+    align-items: center;
+}
+.c.principal{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+}
+.botones button{
+border: none;
+background-color: #2471EC;
+border-radius: 5px;
+color: #FFFFFF;
+width: 150px;
+height: 50px;
+font-size: 1rem;
+font-weight: 600;
+margin: 30px;
+}
+.botones a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.c.imagen{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    flex: 1;
+}
