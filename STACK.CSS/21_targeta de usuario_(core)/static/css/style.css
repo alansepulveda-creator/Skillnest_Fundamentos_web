@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 100px;
+        background-color: rgb(238, 237, 237);
+    color: rgba(52, 52, 52, 0.805);
+
+}
+.targeta-lisa{
+    position: relative;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    height: 350px;
+    padding: 20px;
+    box-shadow: 0 5px 15px black;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.targeta-lisa p{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.targeta-lisa img{
+    position: absolute;
+    top: -70px;
+    left: 125px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+    border: 5px solid white;
+}
+.targeta-lisa button {
+    position: absolute;
+    left: -45px;
+    background-color: #3498DB;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 90px;
+    height: 40px;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+.necesario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+.separacion{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.ventana-modal p{
+    text-align: center;
+}
+.boton:hover{
+    transform: scale(1.1);
+}
