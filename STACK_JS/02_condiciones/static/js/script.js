@@ -40,11 +40,18 @@ function ejercicio1(){
 
 
 function ejercicio2(){
-let Edad = parseInt(prompt(""))
+let Edad = parseInt(prompt("¿Cuantos años tiene?"))
+let Acompañado = prompt("¿Viene acompañado por un adulto? (si o no)")
 if (Edad > 18) {
     alert("acceso permitido")}
-
+else if (Edad < 18 && Acompañado === "si"){
+    alert("acceso permitido")}
+else{
+    alert("acceso denegado")
 }
+}
+
+
 // ✅ Ejercicio 3: Clasificación de temperatura
 // 📝 Enunciado
 // Solicitar una temperatura y clasificar:
@@ -54,6 +61,21 @@ if (Edad > 18) {
 // Además:
 // Si la temperatura supera los 35 grados, mostrar una alerta adicional:
 //  “Temperatura extrema”.
+
+function ejercicio3(){
+    let temperatura = parseInt(prompt("Ingrese la temperatura"))
+    if (temperatura < 10) {
+        alert("Hace frío")
+    } else if (temperatura >= 10 && temperatura <= 24) {
+        alert("Temperatura agradable")
+    } else if (temperatura >= 25) {
+        alert("Hace calor")
+    }
+    if (temperatura > 35) {
+        alert("Temperatura extrema")
+    }
+}
+
 
 // ✅ Ejercicio 4: Verificación de administrador
 // 📝 Enunciado
@@ -67,6 +89,19 @@ if (Edad > 18) {
 // Si ambos son correctos → “Bienvenido administrador”
 // Si usuario es correcto pero contraseña incorrecta → “Contraseña incorrecta”
 // Si usuario no existe → “Usuario no encontrado”
+
+function ejercicio4(){
+    let usuario = prompt("Ingrese su nombre de usuario")
+    let contraseña = prompt("Ingrese su contraseña")
+    if (usuario === "admin" && contraseña === "12345") {
+        alert("Bienvenido administrador")
+    } else if (usuario === "admin" && contraseña !== "123456") {
+        alert("Contraseña incorrecta")
+    } else {
+        alert("Usuario no encontrado")
+    }
+}
+
 
 // ✅ Ejercicio 5: Sistema de aprobación
 // 📝 Enunciado
@@ -83,3 +118,21 @@ if (Edad > 18) {
 // Además:
 // Si alguna nota es menor a 2.0 mostrar:
 //  “Debe asistir a reforzamiento”.
+
+function ejercicio5(){
+    let nombre = prompt("Ingrese el nombre del estudiante")
+    let nota1 = parseInt(prompt("Ingrese la nota 1"))
+    let nota2 = parseInt(prompt("Ingrese la nota 2"))
+    let nota3 = parseInt(prompt("Ingrese la nota 3"))
+    let promedio = (nota1 + nota2 + nota3) / 3
+    if (promedio >= 6.0) {
+        alert("Aprobado con excelencia")
+    } else if (promedio >= 4.0 && promedio < 6.0) {
+        alert("Aprobado")
+    } else {
+        alert("Reprobado")
+    }
+    if (nota1 < 2.0 || nota2 < 2.0 || nota3 < 2.0) {
+        alert("Debe asistir a reforzamiento")
+    }   
+}
