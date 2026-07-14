@@ -43,9 +43,6 @@ function barradecarga(){
 // Producto 3 - Descuento aplicado: 15%
 // Producto 4 - Descuento aplicado: 20%
 // Producto 5 - Descuento aplicado: 25%​​
-// 🎮 Calcular el total de puntos en un videojuego: Un jugador gana 50 puntos cada vez que completa un nivel. Escribe un programa que calcule la puntuación total después de 5 niveles usando un bucle. Ejemplo de salida esperada:
-
-// Puntos acumulados: 250​​
 
 function calculardescuento(){
     let valorproducto = parseInt(prompt("Ingrese el valor del producto"))
@@ -55,6 +52,17 @@ function calculardescuento(){
         descuento + 5;
     }
 }
+
+// 🎮 Calcular el total de puntos en un videojuego: Un jugador gana 50 puntos cada vez que completa un nivel. Escribe un programa que calcule la puntuación total después de 5 niveles usando un bucle. Ejemplo de salida esperada:
+
+// Puntos acumulados: 250​​
+
+function calcularpuntos(){
+    let puntos = 0;
+    for(let i = 1; i <= 5; i++){
+        puntos += 50;
+    }
+    alert(`Puntos acumulados: ${puntos}`)}
 
 // 🔔 Contador de notificaciones en una app: Imagina que una aplicación de mensajería muestra un contador de notificaciones pendientes. Escribe un programa que muestre un mensaje con la cantidad de notificaciones pendientes y las marque como leídas una por una hasta llegar a 0. Ejemplo de salida esperada:
 
