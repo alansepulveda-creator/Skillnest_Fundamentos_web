@@ -52,7 +52,7 @@ function calculardescuento(){
     let descuento = 5;
     for(let i = 1; i < 5; i++){
         alert(`Producto ${i} - Descuento aplicado: ${descuento}%`)
-        descuento += 5;
+        descuento + 5;
     }
 }
 
