@@ -46,10 +46,9 @@ function barradecarga(){
 
 function calculardescuento(){
     let valorproducto = parseInt(prompt("Ingrese el valor del producto"))
-    let descuento = 5;
     for(let i = 1; i < 5; i++){
-        alert(`Producto ${i} - Descuento aplicado: ${descuento}%`)
-        descuento + 5;
+        alert(`Producto ${i} - Descuento aplicado: ${i * 5}
+            \nValor final: ${valorproducto - (valorproducto * (i * 0.05))}`)
     }
 }
 
