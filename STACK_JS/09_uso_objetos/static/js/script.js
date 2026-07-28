@@ -70,13 +70,17 @@ casa.mostrarInformacion()
 
 function ejercicio1(){
     let librillo = {
-        titulo:"",
-        autor:"",
-        año:1998,
-        editorial:"",
-        paginas:100,
+        titulo:"Mein Kampf",
+        autor:"Adolf Hitler",
+        año:1925,
+        editorial:"Franz Eher Verlag",
+        paginas:781_785,
         mostrarpropiedades(){
-            alert(``)
+            alert(`titulo: ${this.titulo}`)
+            alert(`autor: ${this.autor}`)
+            alert(`año: ${this.año}`)
+            alert(`editorial: ${this.editorial}`)
+            alert(`paginas: ${this.paginas}`)
         }
     }
 }
@@ -100,6 +104,19 @@ function ejercicio1(){
 
 // Finalmente muestra el objeto completo.
 
+function ejercicio2(){
+    let celular = {
+        marca:"Samsung",
+        modelo:"Galaxy S25 ultra",
+        almacenamiento:"256GB",
+        color:"Negro"
+    }
+    celular.color = "Blanco";
+    celular.precio = 1000000;
+    delete celular.almacenamiento;
+    console.log(celular);
+}
+
 // ---
 
 // ## Ejercicio 3
@@ -113,6 +130,20 @@ function ejercicio1(){
 // - plataforma
 
 // Agrega un método llamado `mostrarInformacion()` que imprima todas sus propiedades utilizando `this`.
+
+function ejercicio3(){
+    let videojuego = {
+        nombre:"The Legend of Zelda",
+        genero:"Aventura",
+        plataforma:"Nintendo Switch",
+        mostrarInformacion:function(){
+            console.log(`Nombre: ${this.nombre}`);
+            console.log(`Género: ${this.genero}`);
+            console.log(`Plataforma: ${this.plataforma}`);
+        }
+    }
+    videojuego.mostrarInformacion();
+}
 
 // ---
 
