@@ -8,6 +8,8 @@ document.getElementById("colorButton").addEventListener("click", function () {
 function cambiarColor() {
     let colores = ["#ff6347", "#100457", "#9370db", "#0bff02", "#4682b4", "#7affff", "crimson"];
     let colorAleatorio = colores[Math.floor(Math.random() * colores.length)];
+    const = elemento = document.querySelector("#colorbutton");
+    elemento.style.backgroundColor
     document.body.style.backgroundColor = colorAleatorio;
 }
 
