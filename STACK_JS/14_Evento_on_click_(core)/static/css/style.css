@@ -1,0 +1,53 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(248, 247, 247);
+}
+.barra_navegacion{
+background-color: #A29BFE;
+color: white;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+.buscar{
+    border: none;
+    border-radius: 50px;
+    height: 30px;
+    width: 600px;
+}
+.boton_login{
+    background-color: #6C5CE7;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    height: 35px;
+    width: 150px;
+}
+span{
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-evenly;
+    background-color: rgb(145, 131, 131);
+}
+.seccion{
+background-color: white;
+height: 700px;
+width: 600px;
+box-shadow: 2px 2px 2px 2px;
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+.seccion2{
+    background-color: white;
+}
