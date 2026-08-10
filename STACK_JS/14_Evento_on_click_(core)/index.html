@@ -11,41 +11,43 @@
 
 <body>
     <header>
-        <nav class="barra_navegacion">
-            <h1>Social Blog</h1>
+        <nav class="barra_de_navegacion">
+            <h1 class="logo">Social Blog</h1>
             <input type="text" class="buscar" placeholder="   Buscar Publicaciones...">
-            <button class="boton_login">Iniciar sesión</button>
+            <button class="Boton_Login" id="BotonSesion">Iniciar sesión</button>
         </nav>
     </header>
-    <section class="container">
-        <div class="seccion">
-            <div>
+    <main class="container">
+        <section class="FundamentosJS_CSS">
+            <div class="Caja">
                 <h1>Fundamentos de JavaScript</h1>
-                <p><span>Publicado por:</span>Carlos Pérez <br>
-                    <span>Fecha:</span> 02/03/2025 <br></br>
-                    JavaScript es un lenguaje de programación que se utiliza en el desarrollo web. <br>
+                <p><strong>Publicado por</strong>: Carlos Perez <br>
+                <strong>Fecha</strong>: 02/03/2025</p>
+                <p>JavaScript es un lenguaje de programación que se utiliza en el desarrollo web. <br>
                     Aprende los conceptos basicos para comenzar a programar.
                 </p>
-                <button>12 Me gusta</button>
+                <button id="Megusta1" class="Megusta">12 me gustas</button>
             </div>
-            <div>
-                <h1>Aprende a diseñar con CSS</h1>
-                <p><span>Publicado por:</span>Ana Gómez <br>
-                    <span>Fecha:</span> 01/03/2025 <br></br>
-                    El diseño web es una parte fundamental en el desarrollo de aplicaciones web. <br>
+            <div class="Caja">
+                <h1>Aprende a diseñar con css</h1>
+                <p><strong>Publicado por</strong>: Ana Gomez <br>
+                <strong>Fecha</strong>: 01/03/2025</p>
+                <p>El diseño web es una parte fundametal en el desarrollo de aplicaciones web <br>
                     Conoce las propiedades de CSS para crear interfaces atractivas.
                 </p>
-                <button>30 Me gusta</button>
-            </div>
-        </div>
-        <section class="seccion2">
-            <div>
-                <h2>¡Bienvenido!</h2>
-                <p>Explora nuevas publicaciones y conecta con otros usuarios.</p>
-                <button>Ver perfil</button>
+                <button id="Megusta2" class="Megusta">30 me gustas</button>
             </div>
         </section>
-    </section>
+        <section class="Bienvenido">
+            <div class="caja-Bienvenido">
+                <h1>¡Bienvenido!</h1>
+                <p>Explora nuevas publicaciones y conecta <br>
+                    con otros usuarios
+                </p>
+                <button id="VerPerfil" class="VerPerfil">ver perfil</button>
+            </div>
+        </section>
+    </main>
     <script src="static/js/script.js"></script>
 </body>
 

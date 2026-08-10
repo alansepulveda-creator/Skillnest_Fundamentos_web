@@ -1,53 +1,116 @@
-body{
+* {
     padding: 0;
     margin: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(248, 247, 247);
-}
-.barra_navegacion{
-background-color: #A29BFE;
-color: white;
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: space-evenly;
-flex-wrap: wrap;
 }
 
-.buscar{
-    border: none;
-    border-radius: 50px;
-    height: 30px;
-    width: 600px;
+body {
+    background-color: #f4f5f8;
 }
-.boton_login{
-    background-color: #6C5CE7;
+
+.barra_de_navegacion {
+    display: flex;
+    background-color: #A29BFE;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 75px 15px 75px;
+    margin-bottom: 40px;
+    gap: px;
+}
+
+.logo {
     color: white;
-    border: none;
-    border-radius: 50px;
-    height: 35px;
-    width: 150px;
-}
-span{
     font-weight: bold;
 }
-.container{
+
+.buscar {
+    width: 450px;
+    border-radius: 20px;
+    padding: 6px;
+    border: none;
+}
+
+.Boton_Login {
+    border-radius: 20px;
+    padding: 6px 10px 6px 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #6C5CE7;
+    color: white;
+    font-weight: bolder;
+}
+
+.container {
     display: flex;
-    flex-direction: row;
-    gap: 50px;
-    justify-content: space-evenly;
-    background-color: rgb(145, 131, 131);
+    justify-content: center;
+    margin: 10px;
+    gap: 20px;
 }
-.seccion{
-background-color: white;
-height: 700px;
-width: 600px;
-box-shadow: 2px 2px 2px 2px;
-display: flex;
-flex-direction: column;
-gap: 30px;
+
+.FundamentosJS_CSS {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
-.seccion2{
-    background-color: white;
+
+.Caja {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    gap: 10px;
+    padding: 30px;
+    padding-right: 40px;
+    box-shadow: 1px 2px 3px rgb(116, 116, 116);
+    border-radius: 10px;
+}
+
+.Megusta {
+    background-color: #FF7675;
+    color: white;
+    border: none;
+    padding: 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+
+.caja-Bienvenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 30px;
+    padding-right: 40px;
+    box-shadow: 1px 2px 3px rgb(116, 116, 116);
+    border-radius: 10px;
+}
+
+.caja-bien p {
+    text-align: center;
+}
+
+.caja-bien h1 {
+    font-size: 20px;
+}
+
+.VerPerfil {
+    background-color: #00CEC9;
+    color: white;
+    border: none;
+    padding: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 3px;
+    width: 75px;
 }
