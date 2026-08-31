@@ -12,23 +12,25 @@
 </head>
 
 <body>
-    <header class="header">
-        <section class="barra">
-            <nav>
-                <h1>La Galería de arte</h1>
-                <input type="text" placeholder="Buscar arte...">
-                <button>
-                    <h4>Iniciar sesión</h4>
-                </button>
-            </nav>
-        </section>
-    </header>
-    <section class="galeria">
-        <div class="contenedor-img">
-            <img src="static/images/" alt="" class="imagen">
+    <nav class="barra">
+        <div class="titulo">
+            <h1>La Galería de arte</h1>
         </div>
-<h3 class="nombreimagen">Campo de trigo</h3>
+        <div class="buscador">
+            <input type="text" class="buscar" placeholder="Buscar arte...">
+        </div>
+        <div class="sesion">
+            <button class="iniciar_sesion" id="sesion">Iniciar Sesión</button>
+        </div>
+    </nav>
     </section>
+    </header>
+    <main class="main">
+        <div class="contenedor-img" id="contenedor-img">
+            <img src="static/images/campo.jfif" alt="" id="imagen">
+            <h1 id="descripcion">Campo de trigo con cipreses, Vincent Van Gogh (1889)</h1>
+        </div>
+    </main>
 
     <script src="static/js/script.js"></script>
 </body>
