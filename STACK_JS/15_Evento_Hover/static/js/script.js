@@ -24,6 +24,7 @@ button.addEventListener("mouseover", function () {
     console.log("El ratón está sobre el botón");
     button.style.backgroundColor = "green";
     button.style.color = "white";
+    this.innerText.color = "red"
 });
 
 button.addEventListener("mouseout", function () {
@@ -37,7 +38,7 @@ const buton = document.getElementById("Boton");
 
 buton.addEventListener("mouseover", function () {
     console.log("El ratón está sobre el botón");
-    buton.textContent = "El ratón está sobre el botón";
+    buton.textContent = "El cursor está sobre el botón";
 });
 buton.addEventListener("mouseout", function () {
     console.log("El ratón ha salido del botón");
