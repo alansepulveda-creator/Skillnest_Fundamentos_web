@@ -5,45 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Alan Sepúlveda">
-    <title>DOM</title>
+    <title>Me Gusta (core)</title>
     <link rel="stylesheet" href="static/css/style.css">
 </head>
 
 <body>
-    <header>
-        <nav class="barra">
-            <h1>Social Like</h1>
-        </nav>
+    <header class="barra">
+        <h1>Social Like</h1>
     </header>
-    <main>
-        <section>
-            <div>
-                <img src="static/img/" alt="Misato">
-                <h2>Misato</h2>
-                <button>Mi perfil</button>
+    <h2 class="titulo-principal">Últimas publicaciones</h2>
+    <main class="contenedor-principal">
+        <div class="perfil-usuario">
+            <img src="static/images/misato2.png" alt="Misato">
+            <h3>Misato</h3>
+            <button class="btn-perfil">Mi perfil</button>
+        </div>
+        <div class="publicaciones">
+            <div class="post">
+                <div class="post-Rei">
+                    <h3>Rei</h3>
+                    <div class="likes-container">
+                        <span id="likesRei">0 like(s)</span>
+                        <button id="btnRei" class="btn-like">Like</button>
+                    </div>
+                </div>
+                <p>Acabo de configurar este nuevo <a href="#">bot de Discord</a>, cuéntenme que opinan ustedes.</p>
             </div>
-        </section>
-        <section>
-            <h1>Últimas publicaciones</h1>
-            <div>
-                <h2>Rei</h2>
-                <p id="likesRei">0 like(s)</p>
-                <button id="btnRei">Like</button><br>
-                <p>Acabo de configurar este nuevo <a href="">bot de Discord</a>, cuéntenme que opinan ustedes.</p>
+            <div class="post">
+                <div class="post-Asuka">
+                    <h3>Asuka</h3>
+                    <div class="likes-container">
+                        <span id="likesAsuka">0 like(s)</span>
+                        <button id="btnAsuka" class="btn-like">Like</button>
+                    </div>
+                </div>
+                <p>Acabo de leer este <a href="#">nuevo comic</a>. Denle un vistazo.</p>
             </div>
-            <div>
-                <h2>Asuka</h2>
-                <p id="likesAsuka">0 like(s)</p>
-                <button id="btnAsuka">Like</button><br>
-                <p>Acabo de leer este <a href="">nuevo comic</a>, Denle un vistazo.</p>
+            <div class="post">
+                <div class="post-Shinji">
+                    <h3>Shinji</h3>
+                    <div class="likes-container">
+                        <span id="likesShinji">0 like(s)</span>
+                        <button id="btnShinji" class="btn-like">Like</button>
+                    </div>
+                </div>
+                <p>No puedo dejar de escuchar este <a href="#">album</a>. ¿A quién más le gusta?</p>
             </div>
-            <div>
-                <h2>Shinji</h2>
-                <p id="likesShinji">0 like(s)</p>
-                <button id="btnShinji">Like</button><br>
-                <p>No puedo dejar de escuchar este <a href="">album</a>. ¿A quién más le gusta?</p>
-            </div>
-        </section>
+        </div>
     </main>
     <script src="static/js/script.js"></script>
 </body>
