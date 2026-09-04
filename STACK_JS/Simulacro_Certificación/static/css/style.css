@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid;
+    height: 70px;
+}
+
+.separacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-right: 25px;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+}
+
+.login input {
+    height: 30px;
+    width: 350px;
+    border: 3px solid;
+}
+
+.login button {
+    height: 28px;
+    width: 70px;
+    background-color: orange;
+    border: 3px solid;
+    margin-bottom: 2px;
+    box-shadow: 1px 2px 2px 1px;
+}
+
+.contador-compras {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.nav div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.titulo {
+    font-size: 2.5rem;
+    color: orange;
+}
+
+.span {
+    color: black;
+}
+
+.contenedor-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
+
+.contenedor-imagenes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 200px;
+    width: 1200px;
+    background-color: #F9CB9C;
+}
+
+.imagen1,
+.imagen2,
+.imagen3,
+.imagen4,
+.imagen5,
+.imagen6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    gap: 10px;
+}
+
+.imagen1 p,
+.imagen2 p,
+.imagen3 p,
+.imagen4 p,
+.imagen5 p,
+.imagen6 p {
+    color: white;
+    font-weight: bold;
+}
+
+.imagen1 img,
+.imagen2 img,
+.imagen3 img,
+.imagen4 img,
+.imagen5 img,
+.imagen6 img {
+    height: 150px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #CCCCCC;
+    width: 750px;
+    height: 340px;
+    padding: 50px;
+    margin-top: 25px;
+}
+
+.comida-mexicana {
+    height: 300px;
+}
+
+.orden-tacos,
+.orden-flautas {
+    height: 120px;
+    width: 400px;
+}
+
+.seccion2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    width: 400px;
+    height: 350px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.btnmas {
+    background-color: black;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    color: #CCCCCC;
+    border: none;
+}
+
+.divrow {
+    display: flex;
+    flex-direction: row;
+    gap: 240px;
+}
+
+.divroww {
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+}
