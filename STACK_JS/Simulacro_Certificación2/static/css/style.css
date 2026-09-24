@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid;
+    height: 70px;
+}
+.logo, .libros{
+    width: 45px;
+    height: 30px;
+}
+
+.separacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    margin-right: 25px;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.login input {
+    height: 40px;
+    width: 350px;
+    border: 2px solid;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.login button {
+    height: 40px;
+    width: 90px;
+    background-color: #2A5EA3;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.contador-libros {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+.numero{
+    margin-top: 17px;
+    font-weight: bolder;
+}
+
+.nav div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.titulo {
+    font-size: 1.5rem;
+}
+
+.span {
+    color: #295FA7;
+    font-size: larger;
+}
+
+.contenedor-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
+
+.contenedor-imagenes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 200px;
+    width: 1200px;
+    background-color: #D2DDE8;
+}
+
+.imagen1,
+.imagen2,
+.imagen3,
+.imagen4,
+.imagen5,
+.imagen6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    gap: 10px;
+}
+
+.imagen1 p,
+.imagen2 p,
+.imagen3 p,
+.imagen4 p,
+.imagen5 p,
+.imagen6 p {
+    color: white;
+    font-weight: bold;
+}
+
+.imagen1 img,
+.imagen2 img,
+.imagen3 img,
+.imagen4 img,
+.imagen5 img,
+.imagen6 img {
+    height: 150px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #CCCCCC;
+    width: 750px;
+    height: 340px;
+    padding: 50px;
+    margin-top: 25px;
+}
+
+.comida-mexicana {
+    height: 300px;
+}
+
+.orden-tacos,
+.orden-flautas {
+    height: 120px;
+    width: 400px;
+}
+
+.seccion2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    width: 400px;
+    height: 350px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.btnmas {
+    background-color: #152F48;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    color: #CCCCCC;
+    border: none;
+}
+
+.divrow {
+    display: flex;
+    flex-direction: row;
+    gap: 240px;
+}
+
+.divroww {
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+}
