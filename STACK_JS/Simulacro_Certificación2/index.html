@@ -12,89 +12,113 @@
 <body>
     <header>
         <nav class="nav">
-            <div>
-                <img src="static/images/libro.png" alt="bibliotecahorizonte" class="logo">
-                <h1 class="titulo">Biblioteca <br> <span class="span">Horizonte</span></h1>
+            <div class="marca">
+                <img src="static/images/libro.png" alt="Logo Biblioteca Horizonte" class="logo">
+                <h1 class="titulo">
+                    Biblioteca <br>
+                    <span class="span">Horizonte</span>
+                </h1>
             </div>
             <div class="separacion">
-                <form action="#" class="login">
-                    <input type="email" placeholder="   Email" id="email">
-                    <button id="botonLogin">Ingresar</button>
+                <form action="#" class="login" id="loginForm">
+                    <input type="email" placeholder="Email" id="email" required>
+                    <button type="submit" id="botonLogin">
+                        Ingresar
+                    </button>
                 </form>
                 <div class="contador-libros">
-                    <img src="static/images/libros.png" alt="libros" class="libros">
-                    <p>Libros <br> seleccionados:</p>
-                    <p class="numero" id="librosSeleccionados">0</p>
+                    <img src="static/images/libros.png" alt="Libros seleccionados" class="libros">
+                    <p>
+                        Libros<br>
+                        seleccionados:
+                    </p>
+                    <p class="numero" id="librosSeleccionados">
+                        0
+                    </p>
                 </div>
             </div>
         </nav>
     </header>
+
     <main class="contenedor-p">
         <div class="contenedor-imagenes">
             <div class="imagen1">
                 <img src="static/images/libro.png" alt="Novelas">
-                <p></p>
+                <p>Novelas</p>
             </div>
             <div class="imagen2">
-                <img src="static/images/" alt="ciencia">
-                <p></p>
+                <img src="static/images/ciencia.png" alt="Ciencia">
+                <p>Ciencia</p>
             </div>
             <div class="imagen3">
-                <img src="static/images/" alt="historia">
-                <p></p>
+                <img src="static/images/historia.png" alt="Historia">
+                <p>Historia</p>
             </div>
             <div class="imagen4">
-                <img src="static/images/" alt="tecnología">
-                <p></p>
+                <img src="static/images/tecnologia.png" alt="Tecnología">
+                <p>Tecnología</p>
             </div>
             <div class="imagen5">
-                <img src="static/images/" alt="arte">
-                <p></p>
+                <img src="static/images/arte.png" alt="Arte">
+                <p>Arte</p>
             </div>
             <div class="imagen6">
-                <img src="static/images/" alt="infantil">
-                <p></p>
+                <img src="static/images/infantil.png" alt="Infantil">
+                <p>Infantil</p>
             </div>
         </div>
         <div class="row">
             <section class="seccion1">
-                <div>
-                    <h1>Descubre nuevas historias<br class="linea"><span class="span">__</span></h1>
-                    <p>Explora nuestra biblioteca virtual y encuentra liibros para todos los gustos. Conocimiento, aventura y mucho más al alcance de un clic.</p>
+                <div class="contenido-principal">
+                    <h1>
+                        Descubre nuevas historias
+                        <br class="linea">
+                        <span class="span">__</span>
+                    </h1>
+                    <p>
+                        Explora nuestra biblioteca virtual y encuentra libros para todos los gustos.
+                        Conocimiento, aventura y mucho más al alcance de un clic.
+                    </p>
                 </div>
-                <video src="static/videos/" id="videoLibreria" class="video"></video>
-                <p>Conoce la Biblioteca Horizonte</p>
+                <div class="video-contenedor">
+                    <video controls>
+                        <source src="static/videos/biblioteca.mp4" type="video/mp4">
+                        Tu navegador no soporta videos.
+                    </video>
+                    <p>Conoce la Biblioteca Horizonte</p>
+                </div>
             </section>
+
             <section class="seccion2">
-                <h1></h1>
+                <h1>Libros destacados</h1>
                 <div class="column">
-                    <img src="static/images/" alt="cien años de soledad" class="orden-tacos">
-                    <div class="divroww">
+                    <img src="static/images/cien-anos-de-soledad.jpg" alt="Cien años de soledad" class="imagen-libro">
+                    <div class="divrow">
                         <div>
                             <p>Gabriel García Márquez</p>
-                            <a href="">Ver más...</a>
+                            <a href="#" class="ver-mas">Ver más...</a>
                         </div>
-                        <button class="btnmas" id="btnMas1">+</button>
+                        <button class="btnmas" id="btnMas1" type="button">+</button>
                     </div>
                 </div>
                 <div class="column">
-                    <img src="static/images/" alt="sapiens" class="orden-flautas">
+                    <img src="static/images/sapiens.jpg" alt="Sapiens" class="imagen-libro">
                     <div class="divrow">
                         <div>
                             <p>Yuval Noah Harari</p>
-                            <a href="">Ver más...</a>
+                            <a href="#" class="ver-mas">Ver más...</a>
                         </div>
                         <button class="btnmas" id="btnMas2">+</button>
                     </div>
                 </div>
                 <div class="column">
-                    <img src="static/images/" alt="el principito" class="orden-flautas">
+                    <img src="static/images/el-principito.jpg" alt="El Principito" class="imagen-libro">
                     <div class="divrow">
                         <div>
-                            <p>Antoine de  Saint-Exupéry</p>
-                            <a href="">Ver más...</a>
+                            <p>Antoine de Saint-Exupéry</p>
+                            <a href="#" class="ver-mas">Ver más...</a>
                         </div>
-                        <button class="btnmas" id="btnMas2">+</button>
+                        <button class="btnmas" id="btnMas3" type="button">+</button>
                     </div>
                 </div>
             </section>
