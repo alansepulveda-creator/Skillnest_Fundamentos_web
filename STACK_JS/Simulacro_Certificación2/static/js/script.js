@@ -4,7 +4,7 @@ let boton2 = document.querySelector("#btnMas2")
 let carro = document.querySelector("#librosSeleccionados")
 let email = document.querySelector("#email")
 let boton = document.querySelector("#botonLogin")
-const imagen = document.getElementById("comidaMexicana")
+const imagen = document.getElementById("videoLibreria")
 
 imagen.addEventListener("mouseover", function () {
 this.src = "static/";

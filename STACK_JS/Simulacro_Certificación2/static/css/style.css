@@ -154,8 +154,9 @@
     margin-top: 25px;
 }
 
-.comida-mexicana {
-    height: 300px;
+.video {
+    height: 250px;
+    width: 300px;
 }
 
 .orden-tacos,
