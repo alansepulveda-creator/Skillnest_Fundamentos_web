@@ -11,6 +11,8 @@
 
 <body>
     <header>
+
+<!--Barra de navegación-->
         <nav class="nav">
             <div class="marca">
                 <img src="static/images/libro.png" alt="Logo Biblioteca Horizonte" class="logo">
@@ -40,6 +42,9 @@
         </nav>
     </header>
 
+
+<!--Contenedor de imagenes-->
+
     <main class="contenedor-p">
         <div class="contenedor-imagenes">
             <div class="imagen1">
@@ -47,31 +52,32 @@
                 <p>Novelas</p>
             </div>
             <div class="imagen2">
-                <img src="static/images/ciencia.png" alt="Ciencia">
+                <img src="static/images/icono quimica.png" alt="Ciencia">
                 <p>Ciencia</p>
             </div>
             <div class="imagen3">
-                <img src="static/images/historia.png" alt="Historia">
+                <img src="static/images/icono historia.png" alt="Historia">
                 <p>Historia</p>
             </div>
             <div class="imagen4">
-                <img src="static/images/tecnologia.png" alt="Tecnología">
+                <img src="static/images/icono tecnologia.png" alt="Tecnología">
                 <p>Tecnología</p>
             </div>
             <div class="imagen5">
-                <img src="static/images/arte.png" alt="Arte">
+                <img src="static/images/icono arte.png" alt="Arte">
                 <p>Arte</p>
             </div>
             <div class="imagen6">
-                <img src="static/images/infantil.png" alt="Infantil">
+                <img src="static/images/icono infantil.png" alt="Infantil">
                 <p>Infantil</p>
             </div>
         </div>
+
+<!--Sección principal-->
         <div class="row">
             <section class="seccion1">
                 <div class="contenido-principal">
-                    <h1>
-                        Descubre nuevas historias
+                    <h1>Descubre nuevas historias
                         <br class="linea">
                         <span class="span">__</span>
                     </h1>
@@ -80,19 +86,24 @@
                         Conocimiento, aventura y mucho más al alcance de un clic.
                     </p>
                 </div>
+
+<!--Contenedor del video-->
+
                 <div class="video-contenedor">
-                    <video controls>
-                        <source src="static/videos/biblioteca.mp4" type="video/mp4">
+                    <video id="videoLibreria" controls poster="static/images/miniatura1.jfif">
+                        <source src="static/videos/Turismo en Santiago de Chile. Biblioteca de Santiago.mp4" type="video/mp4">
                         Tu navegador no soporta videos.
                     </video>
                     <p>Conoce la Biblioteca Horizonte</p>
                 </div>
             </section>
 
+<!--Libros destacados-->
+
             <section class="seccion2">
                 <h1>Libros destacados</h1>
                 <div class="column">
-                    <img src="static/images/cien-anos-de-soledad.jpg" alt="Cien años de soledad" class="imagen-libro">
+                    <img src="static/images/imagen1.jfif" alt="Cien años de soledad" class="imagen-libro">
                     <div class="divrow">
                         <div>
                             <p>Gabriel García Márquez</p>
@@ -102,7 +113,7 @@
                     </div>
                 </div>
                 <div class="column">
-                    <img src="static/images/sapiens.jpg" alt="Sapiens" class="imagen-libro">
+                    <img src="static/images/imagen2.jfif" alt="Sapiens" class="imagen-libro">
                     <div class="divrow">
                         <div>
                             <p>Yuval Noah Harari</p>
@@ -112,7 +123,7 @@
                     </div>
                 </div>
                 <div class="column">
-                    <img src="static/images/el-principito.jpg" alt="El Principito" class="imagen-libro">
+                    <img src="static/images/imagen3.webp" alt="El Principito" class="imagen-libro">
                     <div class="divrow">
                         <div>
                             <p>Antoine de Saint-Exupéry</p>
