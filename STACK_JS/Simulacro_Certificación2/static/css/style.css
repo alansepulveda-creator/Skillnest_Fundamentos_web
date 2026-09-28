@@ -171,28 +171,23 @@ body {
 /*Sección principal   ////////////////////////////////////////////////////////////////////////////*/
 .seccion1 {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     background-color: #CCCCCC;
     width: 750px;
     height: 500px;
     padding: 40px;
+    gap: 30px;
 }
-
 .contenido-principal {
-    width: 100%;
+    width: 40%;
 }
 
 .seccion1 h1 {
     color: #152F48;
     font-size: 30px;
     margin-bottom: 15px;
-}
-
-.seccion1 p {
-    margin-bottom: 10px;
-    font-size: 15px;
 }
 
 .seccion1 h1 .span {
@@ -205,16 +200,29 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    width: 60%;
+    margin-top: 0;
 }
 
 video {
-    height: 250px;
-    width: 400px;
+    width: 380px;
+    height: 240px;
 }
 
 .video-contenedor p {
     margin-top: 10px;
+    font-weight: bold;
+    color: #152F48;
+}
+
+.contenido-principal p {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.video-contenedor p {
+    margin-top: 10px;
+    margin-bottom: 0;
     font-weight: bold;
     color: #152F48;
 }
